@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    position: fixed;
+}
+nav{
+    text-align: center;
+    background-color: aliceblue;
+    box-shadow: blue ;
+}
+nav li{
+  display: inline-block;
+  padding: 5px;
+  margin: 0 5px;
+  text-align: center;
+  justify-content: center
+ 
+}
+.nav-right{
+    float: right
+}
+li a{
+    text-decoration: none;
+    color: black
+}
+.folder{
+    float: left
+}
+.eye{
+    background-color: rgb(23, 107, 235);
+    padding: 1px 4px 3px 4px;
+    border: 1px solid;
+    border: none;
+    border-radius: 5px
+    
+}
+header{
+    box-shadow: 1px  1px 3px rgb(184, 182, 182);
+}
+button{
+    background-color: rgb(47, 173, 231);
+    padding: 3px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px
+}
+.cards{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    margin: 10px
+}
+
+.container2{
+    background-image: url("./images/images.jfif");
+    display: block;
+    width: 980px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    padding: 0px;
+    border: 10px;
+    border-radius: 5px;
+    position:sticky
+}
+.para{
+    text-align: center;
+    margin-top: 100px;
+    margin: 100px 150px 0px 150px ;
+}
+.inputs{
+    padding-top: 20px;
+    height: 50px;
+}
+.nav1{
+    font-family: none
+}
+
+.profilebtn{
+    float: right;
+    margin: 3px
+}
+#slides{
+    float: left;
+    font-size: 25px;
+    font-family: none;
+    color: white;
+    font-weight: 10px
+}
+.cards button{
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #a3a5a5;
+    border: 1px solid ;
+    display: inline-block;
+    justify-items: center;
+    color: white;
+    position: relative;
+}
+.cards button .material-symbols-outlined{
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    float: left;
+    font-size: 18px;
+    transition: 1s;
+}
+.cards{
+    text-align: center;
+    font-family: none
+}
+.navbarbtn{
+    background-color: rgb(112, 111, 110);
+    margin: 2px;
+    color: white
+}
+
+button p{
+    font-size: 25px
+}
+button span{
+    font-size: 10px
+}
+
+input{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px
+}
+.nav2{
+    color: white;
+    height: 0px
+}
+.container2{
+    color: white;
+    display: block
+}
+.navitems{
+    color:white
+}
+footer p{
+    display: inline-block;
+   text-align: center;
+   position: sticky;
+   padding: 10px;
+   margin-left: 2px;
+   margin-top: 120px;
+   font-size: small; 
+}
+.bottom p{
+    display: inline-block;
+    border-radius: 3px;
+    border: 1px solid;
+    margin-right: 20px;
+    align-items: center
+}
+.cards div > p{
+    background-color: rgba(235, 241, 241,0.1);
+    border-radius: 10px;
+    padding: 1px;
+    width: 80px;
+    align-items: center;
+    margin-left: 45px;
+}
+.folder{
+    font-size: 20px;
+}
+#dash{
+    float: right;
+    display: none;
+}
+@media screen and (min-width:670px) and (max-width:980px){
+    .container2{
+        max-width: 670px;
+    }
+    .container1{
+        max-width: 300px;
+    }
+    .cards button {
+    width: 100px;
+    height: 80px;
+    padding: 7px;
+    border-radius: 8px;
+    background-color: rgb(163, 165, 165);
+    border: 1px solid ;
+    display: inline-block;
+    margin: 3px;
+    justify-items: center;
+    color: white
+    }
+    .cards div > p{
+        align-items: center;
+        margin-left: 15px;
+    }
+    footer  p{
+        display: inline-block;
+        text-align: center;
+        position: sticky;
+        padding: 10px;
+        margin-left: 5px;
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width:669px){
+    .container2{
+        max-width: 500px;
+    }
+    .container1{
+        max-width: 200px;
+    }
+    .cards button {
+    width: 70px;
+    height: 70px;
+    padding: 7px;
+    margin: 3px;
+    justify-items: center;
+    text-align: center;
+    }
+    .cards div > p{
+        align-items: center;
+        margin-left: 15px;
+    }
+    footer  p{
+        display: inline-block;
+        text-align: center;
+        position: sticky;
+        padding: 10px;
+        margin-left: 5px;
+        margin-top: 60px;
+    }
+    .para{
+        text-align: center;
+        margin-top: 100px;
+        margin: 50px 100px 0px 50px ;
+    }
+}
+@media screen and (max-width:630px) {
+        .cards button {
+            width: 70px;
+            height: 70px;
+            padding: 7px;
+            margin: 3px;
+            justify-items: center;
+            text-align: center;
+            font-size: 10px;
+            }
+        .cards div{
+            display: grid;
+        }
+        #dash{
+            display: inline-block;
+            font-size: 30px;
+            top:0;
+        }
+        .list{
+            display: none;
+        }
+        .cards div > p{
+            text-align: center;
+            font-size: 12px;
+            padding-right: 40px;
+        }
+        
+}
+

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+    <link rel="stylesheet" href="./app.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Nunito:wght@300&family=Playfair+Display:wght@500&family=Roboto+Mono:wght@100&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="nav1">
+                <span class="material-symbols-outlined" id="dash">
+                    reorder
+                    </span>
+                <ul class="list">
+                    <li class="folder"><i class="fa-regular fa-folder-open"></i></li>
+                    <li><a href="">Slides</a></li>
+                    <li><a href="">Animations</a></li>
+                    <li><a href="">Panels</a></li>
+                    <li><a href="">Navigation</a></li>
+                    <li><a href="">Styles</a></li>
+                    <li><a href="">Settings</a></li>
+                    <div class="nav-right">
+                        <span class="eye">&#128065;</span>
+                        <button class="navbarbtn">Download</button>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="cards" >
+            <div>
+                <button onclick="roboto()"  id="btnrem" type="button" class="btnbc1">
+                    <span id="tick1" class="material-symbols-outlined" style="display: none;">
+                        check_circle
+                    </span>
+                    <p style="font-family: Roboto;">Abc</p><span>Roboto</span>
+                </button>
+                <p class="btn1" id="pbg">Default</p>
+            </div>
+            <div>
+                <button onclick="nunito()"  id="btnrem" type="button" class="btnbc2">
+                    <span id="tick2" class="material-symbols-outlined" style="display: none;">
+                        check_circle
+                    </span>
+                    <p style="font-family: Nunito;">Abc</p><span>Nunito</span>
+                </button>
+                <p class="btn2" id="pbg">Rounded</p>
+            </div>
+            <div>
+                <button onclick="montserent()" id="btnrem" type="button" class="btnbc3">
+                    <span id="tick3" class="material-symbols-outlined" style="display: none;">
+                        check_circle
+                    </span>
+                    <p style="font-family: Montserent;">Abc</p><span>Montserent</span>
+                </button>
+                <p class="btn3" id="pbg">Geometric</p>
+            </div>
+            <div>
+                <button onclick="playfair()" id="btnrem"  type="button" class="btnbc4">
+                    <span id="tick4" class="material-symbols-outlined" style="display: none;">
+                        check_circle
+                    </span>
+                    <p style="font-family: Playfair Display;">Abc</p><span>Playfair display& logo</span>
+                </button>
+                <p class="btn4" id="pbg">Elegant</p>
+            </div>
+            <div>
+                <button onclick="monospace()" id="btnrem" type="button" class="btnbc5">
+                    <span id="tick5" class="material-symbols-outlined" style="display: none;">
+                        check_circle
+                    </span>
+                    <p style="font-family: Monopace;">Abc</p><span>Monospace</span>
+                </button>
+                <p class="btn5" id="pbg">Monospace</p>
+            </div>
+        </div>
+        <div class="container2">
+            <form>
+                <header>
+                    <nav class="nav2">
+                        <ul class="secondnav">
+                            <span id="slides">Slides</span>
+                            <li><a class="navitems" href="">Tour</a></li>
+                            <li><a class="navitems" href="">Upgrade</a></li>
+                            <li><a class="navitems" href="">Help</a></li>
+                            <li><a class="navitems" href="">Explore</a></li>
+                            <button class="profilebtn" type="button">profile</button>
+                        </ul>
+                    </nav>
+                </header>
+                <div class="para">
+                    <h2>Creativity is to think more efficently</h2>
+                    <p>So when a good idea comes, You know, part of my job is move it around just see what different
+                        people think, get people talking about it. -- Harsha</p>
+                </div>
+                <div class="inputs">
+                    <input type="email" placeholder="Email address">
+                    <button class="getStart" type="button">Get Started</button>
+                </div>
+                <footer>
+                    <p>No risk trail</p>
+                    <p>&#x2022; Support</p>
+                    <p>&#x2022; Frequent updates</p>
+                </footer>
+            </form>
+        </div>
+
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
